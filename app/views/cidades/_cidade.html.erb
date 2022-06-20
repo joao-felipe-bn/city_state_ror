@@ -1,0 +1,25 @@
+<div id="<%= dom_id cidade %>">
+
+
+
+
+  <p>
+    <strong>Nome:</strong>
+    <%= cidade.nome %>
+  </p>
+
+  <p>
+    <strong>Estado:</strong>
+    <%= Estado.all.find(cidade.estado_id).sigla %>
+  </p>
+
+
+</div>
+
+
+
+
+
+
+
+
